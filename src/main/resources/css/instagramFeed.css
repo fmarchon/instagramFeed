@@ -1,0 +1,107 @@
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.feed-component .feed-title {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 0 17px 0;
+  font-weight: 400;
+  border-bottom: 2px solid #b5121b;
+}
+
+.feed-component .component-footer {
+  padding-top: 7px;
+}
+
+
+.feed-component .component-footer > a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.instagram-feed {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 8px;
+}
+
+.instagram-feed hr {
+  margin: 8px 0;
+}
+.instagram-feed .feed {
+  float: left;
+  width: calc(50% - 4px);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.instagram-feed .feed .image {
+  width: 100%;
+  height: 180px;
+}
+
+.instagram-feed .feed:last-child, .instagram-feed .feed:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.instagram-feed .feed:nth-child(2n-1) {
+  margin-right: 8px;
+}
+
+.instagram-feed .feed:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.instagram-feed:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (min-width: 992px) {
+  .instagram-feed {
+    padding: 5.28px;
+  }
+
+  .instagram-feed hr {
+    margin: 5.28px 0;
+  }
+
+  .instagram-feed .feed {
+    margin-bottom: 5.28px;
+  }
+
+  .instagram-feed .feed:nth-child(2n-1) {
+    margin-right: 5.28px;
+  }
+}
+
+.media-gallery .image {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 25px;
+}
+
+.media-gallery.small .image {
+  height: 100px;
+}
+
+.media-gallery.large .image {
+  height: 300px;
+}
+
+.media-gallery .caption{
+  height:40px;
+}

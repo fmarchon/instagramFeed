@@ -1,0 +1,16 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+
+[jnt:instagramFeed] > jnt:content, jmix:socialComponent, mix:title
+ - jcr:title (string) internationalized
+ - pageName (string)
+ - maxEntries (long) = '5'
+ - accessToken (string) hidden nofulltext
+
+[jmix:instagramFeedConfiguration] mixin
+ extends = jnt:virtualsite
+ itemtype = options
+ - instagramApplicationId (string) mandatory nofulltext
+ - instagramApplicationSecret (string) mandatory nofulltext
+
