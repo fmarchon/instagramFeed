@@ -53,3 +53,7 @@ Once you click the link, a new window will be opened redirecting you to a page w
 Once you login to instagram and authorize the application, you will be taken to a page confirming the new token was received successfully.
 
 Close the browser window/tab and refresh the page containing the Instagram Feed Component, it should now display the images from instagram. Note: the configured Instagram page name and the account used to authorize the application must match, otherwise the component will not have access rights to display the instagram page images.
+
+ DISCLAIMER
+ ----------
+ This code has been pulled from a different a project and needs to be code reviewed
