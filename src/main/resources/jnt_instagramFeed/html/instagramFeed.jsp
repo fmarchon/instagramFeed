@@ -61,7 +61,7 @@
                 <div id="instagram-gallery${uuid}" class="photoswipe-gallery${uuid}"></div>
                 <div class="clearfix"></div>
                 <div class="component-footer">
-                    <a href="http://www.instagram.com/${instagramManager.pageName}" class="footerlink" target="_blank"><fmt:message key="label_InstagramPageLinkLabel" /></a>
+                    <a href="https://www.instagram.com/${instagramManager.pageName}" class="footerlink" target="_blank"><fmt:message key="label_InstagramPageLinkLabel" /></a>
                 </div>
             </div>
 
